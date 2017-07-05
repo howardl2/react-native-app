@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {PropTypes, TouchableOpacity, StyleSheet, View, Text} from 'react-native'
 
- export default class Home extends Component {
+export default class Home extends Component {
    static contextTypes = {
      drawer: PropTypes.object.isRequired,
    }
